@@ -1,0 +1,17 @@
+{
+  "user1": {
+  "username": "standard_user",
+  "password": "secret_sauce"
+  },
+
+  "user2": {
+  "username": "problem_user",
+  "password": "secret_sauce"
+  },
+
+  "checkData": {
+  "firstName": "Cosme",
+  "lastName": "Fulanito",
+  "postalCode": "123"
+  }
+}
