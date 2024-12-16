@@ -6,8 +6,6 @@ Cypress.Commands.add('completeLogin', (type = 'user1') => {
         cy.get('[data-test="username"]').clear().type(formData.username)
         cy.get('[data-test="password"]').clear().type(formData.password)
         cy.get('[data-test="login-button"]').click();
-        
-
     })
 });
 

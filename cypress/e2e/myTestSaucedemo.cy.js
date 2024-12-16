@@ -8,7 +8,7 @@ describe('Test user1',{testIsolation:false}, () => {
 
     it('login', () => {
         cy.completeLogin('user1');
-        //cy.completeLogin('user2');
+        
     });
     
     it('addToCart', () => {
@@ -23,7 +23,10 @@ describe('Test user1',{testIsolation:false}, () => {
     
     it('Logout', () => {
         cy.logout();
+        cy.clearCookies();
     });
+
+    
 
 });
 
@@ -40,6 +43,7 @@ describe('Test user2',{testIsolation:false}, () => {
     it('login', () => {
         cy.completeLogin('user2');
         
+        
     });
     
     it('addToCart', () => {
@@ -54,6 +58,7 @@ describe('Test user2',{testIsolation:false}, () => {
     
     it('Logout', () => {
         cy.logout();
+        cy.clearCookies();
     });
 
 });
