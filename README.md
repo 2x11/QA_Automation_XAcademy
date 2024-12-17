@@ -30,4 +30,4 @@ Este trabajo garantiza una cobertura de pruebas básica y facilita la identifica
 
 
 
-![](/cypress/fixtures/vsc.jpg)
+![](/cypress/screenshots/test.jpg)
